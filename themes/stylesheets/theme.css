@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F7F7F7;
+    color: #3C3C3C;
+    font-family: Helvetica, Tahoma, Arial, sans-serif;
+    font-size: 10pt;
+    background-image: url('../images/background.png');
+}
+
+a {
+    color: #17AEEF;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    vertical-align: top;
+}
+
+h1 {
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 10pt;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.Content {
+    width: 850px;
+    margin: 0px auto;
+}
+
+#Menu {
+    text-align: center;
+}
+
+#Menu ul {
+    list-style-type: none;
+}
+
+#Menu ul li {
+    display: inline-block;
+    height: 100px !important;
+    width: 100px;
+}
+
+#Menu ul li:hover {
+    background-position: 0px 100px;
+    cursor: crosshair;
+}
+
+#Menu ul li.active {
+    background-position: 0px 100px;
+}
+
+li.home {
+    background-image: url('../images/menu-home.png');
+}
+
+li.formation {
+    background-image: url('../images/menu-formation.png');
+}
+
+li.experience {
+    background-image: url('../images/menu-experience.png');
+}
+
+li.projets {
+    background-image: url('../images/menu-projets.png');
+}
+
+li.photos {
+    background-image: url('../images/menu-photos.png');
+}
+
+li.creations {
+    background-image: url('../images/menu-creations.png');
+}
+
+li.contact {
+    background-image: url('../images/menu-contact.png');
+    width: 101px !important;
+}
+
+#Header {
+    background-image: url('../images/header-background.png');
+    height: 200px;
+}
+
+#Title {
+    width: 100%;
+    text-align: right;
+}
+
+#Page {
+    background-image: url('../images/page-background.png');
+}
+
+#Bottom {
+    background-image: url('../images/page-bottom.png');
+    background-repeat: repeat-x;
+    height: 20px;    
+}
+
+#Footer {
+    width: 850px;
+    margin: 10px auto;
+    text-align: right;
+    color: #CCCCCC;
+    font-size: 8pt;
+}
+
+hr.Separator {
+    height: 1px;
+    background-color: #EDEDED;
+    border: 0;
+    margin: 20px 0;
+}
+
+.cleaner {
+    clear: both;
+}
+
+#Left {
+    float: left;
+    width: 420px;
+}
+
+#Right {
+    width: 430px;
+    float: right;
+}
+
+h2 {
+    color: #17AEEF;
+    font-size: 14pt;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+
+p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.Preview {
+    float: left;
+    padding: 20px 7px;
+}
+
+/* ************************************************************************** */
+#Formation {
+    float: left;
+    width: 500px;
+}
+
+#Formation .year {
+    float: left;
+    width: 82px;
+    margin-top: 20px;
+}
+
+#Formation .degree {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+#Formation .degree h3 {
+    color: #17AEEF;
+    font-size: 11pt;
+}
+
+
+#Formation .degree p {
+    margin: 0px;
+}
+
+#Competences {
+    float: right;
+    width: 280px;
+}
+
+#Competences div {
+    margin: 6px 0 20px 0;
+}
+
+#Competences div p {
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+#Experience .company {
+    float: left;
+    width: 100px;
+}
+
+#Experience .description {
+    margin-left: 110px;
+}
+
+#Experience .description h3 {
+    color: #17AEEF;
+    font-size: 11pt;
+}
+
+#Experience .description h4 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 6px;
+}
+
+#Experience .description p {
+    margin: 0px;
+}
+
+#Experience .cleaner {
+    height: 20px;
+}
+
+#Projects {
+    margin-top: 20px;
+}
+
+#Projects .project {
+    float: left;
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+#Projects .project p {
+    padding: 0 10px;
+}
+
+.more {
+    padding: 10px;
+}
